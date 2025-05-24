@@ -42,3 +42,6 @@ yarn-error.log*
 next-env.d.ts
 .windsurfrules
 metatool-web.code-workspace
+
+# remote hosting
+remote-hosting/browser-state-*
