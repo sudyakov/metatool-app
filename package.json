@@ -10,7 +10,7 @@
     "build:next": "next build",
     "build:remote-hosting": "cd remote-hosting && pnpm run build",
     "build:all": "concurrently \"pnpm run build:next\" \"pnpm run build:remote-hosting\" --names \"App,Remote Hosting\" --prefix-colors \"blue,green\"",
-    "start:next": "next start",
+    "start:next": "next start --port=12005",
     "start:remote-hosting": "cd remote-hosting && pnpm run start",
     "start:all": "concurrently \"pnpm run start:next\" \"pnpm run start:remote-hosting\" --kill-others --names \"App,Remote Hosting\" --prefix-colors \"blue,green\"",
     "lint": "next lint",
