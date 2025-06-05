@@ -2,7 +2,7 @@
   "name": "metamcp-app",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.11.1",
   "scripts": {
     "dev": "concurrently \"pnpm run dev:next\" \"pnpm run dev:remote-hosting\" --kill-others --names \"App,Remote Hosting\" --prefix-colors \"blue,green\"",
     "dev:next": "next dev --turbopack --port=12005",
